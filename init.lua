@@ -1,0 +1,32 @@
+require("jaden.plugins-setup")
+require("jaden.core.options")
+require("jaden.core.keymaps")
+require("jaden.core.colorscheme")
+require("jaden.plugins.nvim-tree")
+require("jaden.plugins.comment")
+require("nvim-web-devicons")
+require("plenary")
+require("telescope")
+require("vim-be-good")
+require("jaden.plugins.harpoon")
+require("jaden.plugins.undotree")
+require("jaden.plugins.fugitive")
+
+require('lsp-zero')
+-- require('nvim-lspconfig')
+require('mason').setup()
+require('mason-lspconfig').setup()
+-- require('mason-lspconfig').setup({
+--   ensure_installed = { "sumneko_lua" }
+-- })
+-- require('nvim-cmp')
+-- require('cmp-buffer')
+-- require('cmp-path')
+-- require('cmp_luasnip')
+-- require('cmp-nvim-lsp')
+-- require('cmp-nvim-lua')
+-- require('LuaSnip')
+-- require('friendly-snippets')
+
+require("jaden.plugins.lsp")
+
